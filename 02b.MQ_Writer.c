@@ -20,5 +20,5 @@ int main()
     fgets(message.msg_text,MAX,stdin);
     msgsnd(msgid,&message,sizeof(message),0);
     printf("Message send is : %s\n",message.msg_text);
-    return 0;
+    return 0;  
 }
