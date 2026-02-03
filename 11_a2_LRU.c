@@ -3,7 +3,7 @@
 // Function to find the Least Recently Used (LRU) page
 int findLRU(int time[], int n) 
 {
-    int i, minimum = time[0], pos = 0;
+    int i, minimum = time[0], pos = 0;  
     for (i = 1; i < n; ++i) 
     {
         if (time[i] < minimum) 
