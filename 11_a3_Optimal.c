@@ -6,7 +6,7 @@ int findOptimal(int pages[], int frames[], int n, int index, int totalFrames)
     int pos = -1, farthest = index, i, j, found;
     for (i = 0; i < totalFrames; ++i) 
     {
-        found = 0;
+        found = 0;  
         for (j = index; j < n; ++j) 
         {
             if (frames[i] == pages[j]) 
